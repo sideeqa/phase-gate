@@ -1,5 +1,5 @@
    
-public class level4Task{
+public class LevelFourTask{ublic
 
 
     public static int addNumbers(int num1, int num2) {

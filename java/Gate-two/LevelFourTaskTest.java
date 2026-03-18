@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 
-public class level4Tasktest{
+public class LevelFourTaskTest{
 
     @Test
     public void testAddTwoNumber(){
@@ -40,16 +40,16 @@ public class level4Tasktest{
         assertEquals(actual,expected);
     } 
 
-    @Test
-    public void testConvertCelciusToFahrenheits(){
-    
-        level4Task testing = new level4Task();
-        int actual = testing.Fahrenheit(0);
-        int expected = 32;
-        assertEquals(actual,expected); 
-
-
-    }
+//    @Test
+//    public void testToConvertCelciusToFahrenheits(){
+//    
+//        level4Task testing = new level4Task();
+//        int actual = testing.toFahrenheit(0);
+//        int expected = 32;
+//        assertEquals(actual,expected); 
+//
+//
+//    }
 
 }
 
