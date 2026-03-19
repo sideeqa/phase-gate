@@ -1,6 +1,5 @@
 public class functiontask{
-
-public static void getlettersofcharacters(CharAt[]letters,arraysize){
+                                                                                                                                                                                       90rsofcharacters(CharAt[]letters,arraysize){
 
 
     CharAt [] new character = new CharAt [Arraysize];
@@ -30,7 +29,7 @@ public static void getlettersofcharacters(CharAt[]letters,arraysize){
 
 
  public static void getlistofnumbers(double[]numbers,arraysize){
-
+    int largest [= 0]
     double[] newlist = new double[arraysize];
     for(int index= 0; index < arraysize; index++){
 
@@ -41,7 +40,7 @@ public static void getlettersofcharacters(CharAt[]letters,arraysize){
 
         else{
 
-            newlist[index] = 2;
+            newlist[index] = 0;
 }
 
 }
