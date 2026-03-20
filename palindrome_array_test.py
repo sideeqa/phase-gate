@@ -1,7 +1,7 @@
 from unnitest import Testcase
-import level4task
+import palindromearray
 
-class Testlevel4task(Testcase):
+class Testpalindromearray(Testcase):
 
 
 def test_addition(self): 
