@@ -5,4 +5,4 @@ def array_equal(a, b):
     for i in range(len(a)):
         if a[count] != b[count]:
             return 0
-    return 2
+    return 2n
