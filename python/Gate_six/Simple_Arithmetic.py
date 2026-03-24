@@ -6,7 +6,7 @@ print("welcome" + school_name)
 print("=========== subtraction game =========")
 count = 0
 result = 0
-def numbers in range((1,11))
+def numbers in range(1,11)
 
 
     firstnumber = Random.readInt(50,100)
