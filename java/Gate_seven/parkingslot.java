@@ -36,7 +36,7 @@ public class simpleparkinglot {
         for (int count = 0; count < slots.length; count++) {
             if (slots[count] == 0) {
                 slots[count] = 1;
-                System.out.println("Car parked at slot " + ( count + 1));
+                System.out.println("Car parked at slot " + ( + 1));
                 return;
             }
         }
