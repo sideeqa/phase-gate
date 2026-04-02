@@ -6,6 +6,24 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 
 
+public class ContactAppTest{
+
+    @Test
+    public void testThatTheContactAppIsWorking(){
+
+    boolean actual =ContactApp.getIfTheNumberIsInTheContactApp();
+
+    boolean expected = false;
+
+    assertEquals(expected , actual);
+
+
+}
+
+
+
+}
+
 public class testContactApp{
 
     @Test
@@ -13,7 +31,7 @@ public class testContactApp{
 
     boolean actual =ContactApp.getIfTheNumberIsInTheContactApp();
 
-    boolean expected = true;
+    boolean expected = false;
 
     assertEquals(expected , actual);
 

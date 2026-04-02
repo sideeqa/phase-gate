@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 
 public class ContactApp{
-    
-    
 
-    public Contact(String firstName, String lastName, String phoneNumber) {
+    static ArrayList<String> contacts = new ArrayList<>();    
+
+    public static void Addcontact(){
         String phonemenu = """
         1. Add Contact
         2. Remove contact
@@ -24,13 +24,13 @@ public class ContactApp{
     }
 
     static Array[]contact= new Scanner(System.in);
-        System.out.print("Enter the contactApp");
+        System.out.println("Enter the contactApp");
         String firstName = input.nextLine();
 
-        System.out.print("Enter Last Name: ");
+        System.out.println("Enter Last Name: ");
         String lastName = input.nextLine();
 
-        System.out.print("Enter PhoneNumber: ");
+        System.out.println("Enter PhoneNumber: ");
         String phone = input.nextLine();
 
         String contact = firstName + " " + lastName + " - " + phone;
@@ -58,11 +58,41 @@ public class ContactApp{
         }
     }
 
+    if (!found) 
+        System.out.println("Contact not found");
+    }
+}
+    public static void findContactByPhone() {
+    Scanner input = new Scanner(System.in);
+
+    System.out.print("Enter phone number: ");
+    String phone = input.nextLine();
+
+    boolean found = false;
+
+    for (int count = 0; count < contacts.size(); count++) {
+        String contact = contacts.get(i);
+
+        
+        String[] parts = contact.split(" - ");
+        String name = parts[0];
+        String storedPhone = parts[1];
+
+        if (storedPhone.equals(phone)) {
+            System.out.println("Result:");
+            System.out.println(name);
+            System.out.println(storedPhone);
+            found = true;
+            break;
+        }
+    }
+
     if (!found) {
         System.out.println("Contact not found");
     }
 }
 
+        
         
     
 
