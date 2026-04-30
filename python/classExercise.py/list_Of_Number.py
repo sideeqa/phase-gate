@@ -115,22 +115,4 @@ numbers = [1,2,3,4,5,6,7,8,9]
 print(sum_every_third(numbers))
 
 
-def sum_first_middle_last(lst):
-    first = lst[0]
-    last = lst[-1]
-    n = len(lst)
-
-    if n % 2 == 1:
-        middle = lst[n // 2]
-    else:
-        mid1 = lst[(n // 2) - 1]
-        mid2 = lst[n // 2]
-        middle = (mid1 + mid2) / 2
-
-    return first + middle + last
-
-
-print(sum_first_middle_last([1,2,3,4,5]))     
-print(sum_first_middle_last([1,2,3,4,5,6]))   
-
 
